@@ -70,6 +70,10 @@ A high-performance, modern WhatsApp client built entirely for the terminal. Expe
 Type these in the input bar:
 - `/search <name>` - Filter your chat list.
 - `/send <path>` - Send a local file or image.
+- `/alias <number> <name>` - Set a local display name override.
+- `/unalias <number>` - Remove a local display name override.
+- `/clear` - Wipe local cache and force fresh sync.
+- `/logout` - Log out and delete all session data.
 
 ---
 
