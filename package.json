@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-cli",
+  "module": "src/index.tsx",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/index.tsx"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/fs-extra": "^11.0.4",
+    "@types/qrcode-terminal": "^0.12.2",
+    "@types/react": "^19.2.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "fs-extra": "^11.3.3",
+    "ink": "^6.6.0",
+    "ink-text-input": "^6.0.0",
+    "open": "^11.0.0",
+    "pino": "^10.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "react": "^19.2.3",
+    "react-devtools-core": "^7.0.1"
+  }
+}
